@@ -22,9 +22,9 @@ const textOneLiner = {
       <View>
         {/* <Button title="click me" onPress={() => Alert.alert('Ceci est une alerte !')}/> */}
         <Button
-          title="Press me"
+          title="Click me"
           color="#f194ff"
-          onPress={() => Alert.alert('Button with adjusted color pressed')}
+          onPress={() => Alert.alert('Ceci est une alerte')}
         />
       </View>
       <View>
@@ -34,7 +34,7 @@ const textOneLiner = {
         <ActivityIndicator size="large" />
       </View>
       <View>
-        <Button title="Fais moi vibrer" onPress={() => Vibration.vibrate()} />
+        <Button title="le téléphone va vibrer si tu cliques" onPress={() => Vibration.vibrate()} />
       </View>
     </ScrollView>
   );
